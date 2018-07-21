@@ -1,0 +1,43 @@
+.strip{
+
+    text-align: center;
+    padding: 20px;
+}
+
+.welcome{
+    background-image: url("https://cdn.pixabay.com/photo/2016/03/09/15/26/buddha-1246654_1280.jpg");
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding-top: 200px;
+    padding-bottom: 400px;
+    padding-right: 200px;
+    padding-left: 200px;
+    text-transfrom: uppercase;
+    background-position: left;
+    text-align: right;
+
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+
+}
+
+li {
+   float: left;
+}
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 14px 16px;
+   text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+   color: maroon;
+}

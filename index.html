@@ -1,54 +1,82 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <tit>Welcome</tit>
+    <title>Welcome</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   </head>
 
   <body>
 
 <!-- header -->
     <div>
-      <h1>Ilyas's Site</h1>
-      <p> Welcome to my site </p>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     </div>
+
+  <h1 class = "strip">Ilyas's Site</h1>
 
 
 <!-- navbar -->
-    <div>
+    <div id = "navbar">
       <ul>
-        <li>Bio</li>
-        <li>Projects</li>
-        <li>Work</li>
+        <div class="row">
+          <div class="col-sm-4 col-lg-12">
+            <li><a href = #bio>About Me</a></li>
+          </div>
+          <div class="col-sm-4 col-lg-12">
+            <li><a href = #proj>Projects</a></li>
+          </div>
+          <div class="col-sm-4 col-lg-12">
+            <li><a href = #resume>Work</a></li>
+          </div>
+        </div>
       </ul>
     </div>
 
-
+  <div class = "welcome">
+  <!--  <img src = "https://static1.squarespace.com/static/5492c620e4b0face5ddac182/5b183b641ae6cfe9d80d686a/5b183b6f88251b9e15a4873a/1528316039571/_42A2470Es.JPG?format=750w"> -->
+    <p > Welcome To My Site </p>
+  </div>
 <!-- website -->
     <div>
-      <h2>Bio</h2>
-      <p>Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt
+      <div class = "row" >
+        <div class="col-sm-6 col-lg-12">
+        <h2 class = "box-shape" id = bio>About Me</h2>
+        <p>Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt
    aut inventa sunt? Consequentia exquirere, quoad sit id, quod volumus, effectum.
    An nisi populari fama? Longum est enim ad omnia respondere, quae a te dicta sunt.
    Alia quaedam dicent, credo, magna antiquorum esse peccata, quae ille veri investigandi
    cupidus nullo modo ferre potuerit.
-       </p>
-      <h2>Projects</h2>
-      <p>Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt
+         </p>
+       </div>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      <div class="col-sm-6 col-lg-12">
+       <h2 class = "box-shape" id = proj>Projects</h2>
+       <p>Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt
        aut inventa sunt? Consequentia exquirere, quoad sit id, quod volumus, effectum.
        An nisi populari fama? Longum est enim ad omnia respondere, quae a te dicta sunt.
        Alia quaedam dicent, credo, magna antiquorum esse peccata, quae ille veri investigandi
        cupidus nullo modo ferre potuerit.
-       </p>
-      <h2><a href = "#">Work</a></h2>
-      <p>Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt
+        </p>
+      </div>
+      
+       <h2 class = "rect-shape" id = resume><a href = "#">Work</a></h2>
+       <p>Ea, quae dialectici nunc tradunt et docent, nonne ab illis instituta sunt
    aut inventa sunt? Consequentia exquirere, quoad sit id, quod volumus, effectum.
    An nisi populari fama? Longum est enim ad omnia respondere, quae a te dicta sunt.
    Alia quaedam dicent, credo, magna antiquorum esse peccata, quae ille veri investigandi
    cupidus nullo modo ferre potuerit.</p>
+     </div>
     </div>
   <!-- Bottom -->
-    <div>
-      <h3>Contact<br><em>email<em>: il5yasw@gmail.com <em>address</em>:St.Paul,MN <em>phone</em>:651-497-6852</h3>
+    <div id = contact>
+      <p><em>Contact</em>:<br><strong>email</strong>: il5yasw@gmail.com<br><strong>address</strong>:St.Paul,MN <br><strong>phone</strong>:651-497-6852</p>
     </div>
 
   </body>
